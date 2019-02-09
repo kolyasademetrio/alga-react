@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class FooterCategoryMenuItem extends Component {
     render(){
@@ -7,7 +8,9 @@ class FooterCategoryMenuItem extends Component {
 
         return (
             <li className="footer__categoryItem">
-                <a href={ link } className="footer__categoryItemLink">{ title }</a>
+                <Link to={ link } className="footer__categoryItemLink">
+                    { title }
+                </Link>
             </li>
         );
     }

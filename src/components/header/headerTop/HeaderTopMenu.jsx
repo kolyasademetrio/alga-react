@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 class HeaderTopMenu extends Component {
     render(){
@@ -6,14 +7,20 @@ class HeaderTopMenu extends Component {
             <div className="headerTop__menu">
                 <ul className="headerTop__menuList">
                     <li className="headerTop__menuItem">
-                        <a href="https://algaph.com/shipping/"
-                           className="headerTop__menuItemLink" id="">
-                            Доставка и оплата </a>
+                        <NavLink activeClassName="active"
+                                 className="headerTop__menuItemLink"
+                                 to="/shipping"
+                        >
+                            Доставка и оплата
+                        </NavLink>
                     </li>
                     <li className="headerTop__menuItem">
-                        <a href="https://algaph.com/terms-cooperation/"
-                           className="headerTop__menuItemLink" id="">
-                            Условия сотрудничества </a>
+                        <NavLink activeClassName="active"
+                                 className="headerTop__menuItemLink"
+                                 to="/terms-cooperation"
+                        >
+                            Условия сотрудничества
+                        </NavLink>
                     </li>
                 </ul>
             </div>

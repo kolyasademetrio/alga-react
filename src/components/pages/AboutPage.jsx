@@ -8,9 +8,9 @@ class AboutPage extends Component {
                     <div className="row">
                         <div className="col-xs-12">
                             <div className="kama_breadcrumbs" itemscope="">
-                                <span itemprop="itemListElement" itemscope="">
-                                    <a href="/" itemprop="item">
-                                        <span itemprop="name">Главная</span>
+                                <span itemProp="itemListElement" itemscope="">
+                                    <a href="/" itemProp="item">
+                                        <span itemProp="name">Главная</span>
                                     </a>
                                 </span>
                                 <span className="kb_sep"> / </span>

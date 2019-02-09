@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import FooterMenu from '../footer/FooterMenu/FooterMenu';
 import FooterCategoryMenu from '../footer/FooterCategoryMenu/FooterCategoryMenu';
+import { Link } from 'react-router-dom';
 
 class Footer extends Component {
     render(){
@@ -15,14 +16,16 @@ class Footer extends Component {
                                 </div>
 
                                 <div className="footer__item">
-                                    <a href="/shop" className="footer__itemTitleLink">Продукция</a>
-
+                                    <Link to="/shop" className="footer__itemTitleLink">
+                                        Продукция
+                                    </Link>
                                     <FooterCategoryMenu/>
                                 </div>
 
                                 <div className="footer__item">
-                                    <a href="#" className="footer__itemTitleLink">AlgaPH</a>
-
+                                    <Link to="/" className="footer__itemTitleLink">
+                                        AlgaPH
+                                    </Link>
                                     <ul className="footer__contactsList">
                                         <li>г. Киев, пл. Спортивная 1 А,</li>
                                         <li>
@@ -40,7 +43,7 @@ class Footer extends Component {
                                     <div className="footer__itemTitleLink copyright_hidden">&nbsp;</div>
                                     <div className="footer__copyright">
                                         <div>2018. ALGA PH. Разработка сайта</div>
-                                        <div><a href="http://www.seotm.ua/">SEOTM Digital Agency</a>.</div>
+                                        <div><a href="http://www.seotm.ua/" target="_blank">SEOTM Digital Agency</a>.</div>
                                     </div>
                                 </div>
                             </div>

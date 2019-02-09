@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class HeaderTopMyaccount extends Component {
     render(){
         return (
             <div className="headerTop__myaccount">
-                <a href="https://algaph.com/my-account/" title="Войти/Регистрация">Войти/Регистрация<span></span></a>
+                <Link to="my-account"
+                      title="Войти/Регистрация"
+                >
+                    Войти/Регистрация<span></span>
+                </Link>
             </div>
         );
     }
