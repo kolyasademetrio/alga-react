@@ -4,7 +4,7 @@ class HeaderMiddleAsk extends Component {
     render(){
         return (
             <div className="headerMiddle_ask">
-                <a href="#" className="headerMiddle_askText">Задать вопрос</a>
+                <a href="/" className="headerMiddle_askText">Задать вопрос</a>
             </div>
         );
     }

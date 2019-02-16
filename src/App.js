@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import { connect } from 'react-redux';
+
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Ancorup from './components/Ancorup';
@@ -15,10 +17,13 @@ import ErrorPage from './components/pages/ErrorPage';
 import ShippingPage from './components/pages/ShippingPage';
 import TermsCooperationPage from './components/pages/TermsCooperationPage';
 
-import './App.css';
-
 class App extends Component {
     render() {
+        
+        const { id, title } = this.props.products[0];
+        
+        console.log( title );
+        
         return (
             <div>
                 <div className="content__main">
@@ -45,4 +50,8 @@ class App extends Component {
     }
 }
 
-export default App;
+const mapState = state => ({
+    products: state.products.state
+});
+
+export default connect(mapState)(App);

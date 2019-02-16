@@ -12,7 +12,7 @@ class ProductSingle extends Component {
                 <div className="good__itemInner">
                     <div className="good__itemContent">
                         <div className="good__itemHeader">
-                            <img className="good__itemImage" src={ img } data-id={ id }/>
+                            <img className="good__itemImage" src={ img } data-id={ id } alt=""/>
                         </div>
 
                         <div className="good__itemTitle">{ ReactHtmlParser(title) }</div>
@@ -20,8 +20,8 @@ class ProductSingle extends Component {
                         <div className="good__itemExcerpt">{ ReactHtmlParser(exerpt) }</div>
 
                         <div className="good__itemDescr">
-                            <a href="#" className="good__itemDescrTitle">{ ReactHtmlParser(descrTitle) }</a>
-                            <a href="#" className="good__itemDescrText">{ ReactHtmlParser(descrText) }</a>
+                            <a href="/" className="good__itemDescrTitle">{ ReactHtmlParser(descrTitle) }</a>
+                            <a href="/" className="good__itemDescrText">{ ReactHtmlParser(descrText) }</a>
                         </div>
                         <div className="good__itemPrices">
                             <span className="good__itemRegularPrice">

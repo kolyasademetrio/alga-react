@@ -32,17 +32,17 @@ class ModalCart extends Component {
                                             <tbody>
                                                 <tr className="woocommerce-cart-form__cart-item cart_item">
                                                     <td className="product-remove">
-                                                        <a href="#" className="remove" aria-label="Удалить эту позицию" data-product_id="941" data-product_sku="">×</a>
+                                                        <span className="remove" data-product_id="941">×</span>
                                                     </td>
                                                     <td className="product-thumbnail">
-                                                        <a href="#">
+                                                        <a href="/">
                                                             <img width="200" height="196"
                                                                  src="https://algaph.com/wp-content/uploads/2018/10/250ml_1_07-200x196.jpg"
                                                                  className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt=""/>
                                                         </a>
                                                     </td>
                                                     <td className="product-name" data-title="Товар">
-                                                        <a href="#" className="cart__good__title">Крем для рук и ногтей</a>
+                                                        <a href="/" className="cart__good__title">Крем для рук и ногтей</a>
                                                         <div className="cart__good__exerpt">питательный крем 250 мл</div>
                                                     </td>
                                                     <td className="product-quantity" data-title="Количество">
@@ -67,14 +67,14 @@ class ModalCart extends Component {
                                                 </tr>
                                                 <tr className="woocommerce-cart-form__cart-item cart_item">
                                                     <td className="product-remove">
-                                                        <a href="#" className="remove" aria-label="Удалить эту позицию" data-product_id="906" data-product_sku="">×</a>
+                                                        <a href="/" className="remove" aria-label="Удалить эту позицию" data-product_id="906" data-product_sku="">×</a>
                                                     </td>
                                                     <td className="product-thumbnail">
-                                                        <a href="#">
+                                                        <a href="/">
                                                             <img width="200" height="196"
                                                             src="https://algaph.com/wp-content/uploads/2018/10/180-g_scrub-cream__03-200x196.jpg"
                                                             className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
-                                                            alt=""/>
+                                                            alt="dasfgsd"/>
                                                         </a>
                                                     </td>
 

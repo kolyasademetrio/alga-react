@@ -19,7 +19,7 @@ class ContactsPage extends Component {
                     </div>
                 </div>
                 <div id="map">
-                    <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1_NSG7EEHK-leU4BdWa-8m3qy6ZXR7p6O" width="100%" height="480"></iframe>
+                    <iframe title="iframe-google-map" src="https://www.google.com/maps/d/u/1/embed?mid=1_NSG7EEHK-leU4BdWa-8m3qy6ZXR7p6O" width="100%" height="480"></iframe>
                 </div>
                 <div className="container">
                     <div className="row">
@@ -28,8 +28,12 @@ class ContactsPage extends Component {
                                 <div className="contacts__form">
                                     <div role="form" className="wpcf7" id="wpcf7-f1040-o2" lang="ru-RU" dir="ltr">
                                         <div className="screen-reader-response"></div>
-                                        <form action="/contacts/#wpcf7-f1040-o2" method="post" className="wpcf7-form"
-                                              noValidate="novalidate">
+                                        <form action="/contacts/#wpcf7-f1040-o2"
+                                              method="post"
+                                              className="wpcf7-form"
+                                              noValidate="novalidate"
+                                              onChange={() => {}}
+                                        >
                                             <div style={{display: 'none'}}>
                                                 <input type="hidden" name="_wpcf7" value="1040"/>
                                                 <input type="hidden" name="_wpcf7_version" value="5.0.5"/>
@@ -43,9 +47,12 @@ class ContactsPage extends Component {
                                                         <label>
                                                             <span>Ваше имя*</span><br/>
                                                             <span className="wpcf7-form-control-wrap feedback-form-name">
-                                                                <input type="text" name="feedback-form-name" value="" size="40"
+                                                                <input type="text"
+                                                                       name="feedback-form-name"
+                                                                       value="" size="40"
                                                                        className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                       aria-required="true" aria-invalid="false"
+                                                                       aria-required="true"
+                                                                       aria-invalid="false"
                                                                 />
                                                             </span>
                                                         </label>
@@ -54,9 +61,12 @@ class ContactsPage extends Component {
                                                         <label>
                                                             <span>Телефон*</span><br/>
                                                             <span className="wpcf7-form-control-wrap feedback-form-phone">
-                                                                <input type="text" name="feedback-form-phone" value="" size="40"
+                                                                <input type="text"
+                                                                       name="feedback-form-phone"
+                                                                       value="" size="40"
                                                                        className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                       aria-required="true" aria-invalid="false"
+                                                                       aria-required="true"
+                                                                       aria-invalid="false"
                                                                 />
                                                             </span>
                                                         </label>
@@ -65,7 +75,9 @@ class ContactsPage extends Component {
                                                         <label>
                                                             <span>E-Mail*</span><br/>
                                                             <span className="wpcf7-form-control-wrap feedback-form-email">
-                                                                <input type="text" name="feedback-form-email" value="" size="40"
+                                                                <input type="text"
+                                                                       name="feedback-form-email"
+                                                                       value="" size="40"
                                                                        className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                        aria-required="true"
                                                                        aria-invalid="false"

@@ -18,7 +18,7 @@ class Humburger extends Component {
     render(){
         return (
             <React.Fragment>
-                <a href="#" className="headerMiddle__humburger" onClick={this.showModal}></a>
+                <span className="headerMiddle__humburger" onClick={this.showModal}></span>
                 <ModalMenu showModal={this.state.showModal} onClose={this.showModal}/>
             </React.Fragment>
         );

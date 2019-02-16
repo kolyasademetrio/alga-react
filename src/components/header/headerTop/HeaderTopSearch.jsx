@@ -18,10 +18,7 @@ class HeaderTopSearch extends Component {
     render() {
         return (
             <div className="headerTop__search">
-                <a href="#"
-                   className="headerTop__searchLink"
-                   onClick={this.showModal}
-                ></a>
+                <span className="headerTop__searchLink" onClick={this.showModal}></span>
                 <ModalSearch showModal={this.state.showModal}
                              onClose={this.showModal}/>
             </div>

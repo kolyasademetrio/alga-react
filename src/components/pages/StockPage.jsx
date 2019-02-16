@@ -32,13 +32,13 @@ class StockPage extends Component {
                                                     <span>2018-10-24</span>
                                                     <span>19:00:00</span>
                                                 </span>
-                                                <img src="uploads/2018/10/400x200.jpg"/>
+                                                <img src="uploads/2018/10/400x200.jpg" alt="dewr"/>
                                             </a>
 
 
                                             <div className="offers__content">
                                                 <h2>
-                                                    <a href="/offers/%d1%82%d0%b5%d1%81%d1%82%d0%be%d0%b2%d0%b0%d1%8f-%d0%b0%d0%ba%d1%86%d0%b8%d1%8f-3-%d1%81-%d0%ba%d0%b0%d1%80%d1%82%d0%b8%d0%bd%d0%ba%d0%b0%d0%bc%d0%b8/" className="offers__itemTitle">
+                                                    <a href="/offers" className="offers__itemTitle">
                                                         Тестовая акция 3 с картинками
                                                     </a>
                                                 </h2>
@@ -53,9 +53,7 @@ class StockPage extends Component {
                                                     красивыми.
                                                 </div>
 
-                                                <a href="/offers/%d1%82%d0%b5%d1%81%d1%82%d0%be%d0%b2%d0%b0%d1%8f-%d0%b0%d0%ba%d1%86%d0%b8%d1%8f-3-%d1%81-%d0%ba%d0%b0%d1%80%d1%82%d0%b8%d0%bd%d0%ba%d0%b0%d0%bc%d0%b8/" className="offers__itemReadMore">
-                                                    Читать далее
-                                                </a>
+                                                <a href="/offers" className="offers__itemReadMore">Читать далее</a>
                                             </div>
                                         </div>
                                         <div className="offers__item">
@@ -66,12 +64,12 @@ class StockPage extends Component {
                                                     <span>2018-10-17</span>
                                                     <span>00:00:00</span>
                                                 </span>
-                                                <img src="uploads/2018/10/977x550_3.jpg"/>
+                                                <img src="uploads/2018/10/977x550_3.jpg" alt="wrewhj"/>
                                             </a>
 
                                             <div className="offers__content">
                                                 <h2>
-                                                    <a href="/offers/%d1%82%d0%b5%d1%81%d1%82%d0%be%d0%b2%d0%b0%d1%8f-%d0%b0%d0%ba%d1%86%d0%b8%d1%8f-2-%d1%81-%d0%b2%d0%b8%d0%b4%d0%b5%d0%be/" className="offers__itemTitle">
+                                                    <a href="/offers" className="offers__itemTitle">
                                                         Тестовая акция 2 с видео
                                                     </a>
                                                 </h2>
@@ -82,7 +80,7 @@ class StockPage extends Component {
                                                     всемирному дню учителя. Приятных покупок.
                                                 </div>
 
-                                                <a href="/offers/%d1%82%d0%b5%d1%81%d1%82%d0%be%d0%b2%d0%b0%d1%8f-%d0%b0%d0%ba%d1%86%d0%b8%d1%8f-2-%d1%81-%d0%b2%d0%b8%d0%b4%d0%b5%d0%be/" className="offers__itemReadMore">
+                                                <a href="/offers" className="offers__itemReadMore">
                                                     Читать далее
                                                 </a>
                                             </div>
@@ -93,7 +91,7 @@ class StockPage extends Component {
                                                     <span>2018-10-25</span>
                                                     <span>10:17:00</span>
                                                 </span>
-                                                <img src="uploads/2018/10/400х200_1.jpg"/>
+                                                <img src="uploads/2018/10/400х200_1.jpg" alt="sfsfdkoj"/>
                                             </a>
 
 
@@ -114,7 +112,7 @@ class StockPage extends Component {
                                                     красивыми.
                                                 </div>
 
-                                                <a href="/offers/20-%d0%bd%d0%b0-%d0%b2%d0%b5%d1%81%d1%8c-%d0%b0%d1%81%d1%81%d0%be%d1%80%d1%82%d0%b8%d0%bc%d0%b5%d0%bd%d1%82/" className="offers__itemReadMore">
+                                                <a href="/offers" className="offers__itemReadMore">
                                                     Читать далее
                                                 </a>
                                             </div>

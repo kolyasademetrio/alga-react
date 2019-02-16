@@ -31,7 +31,7 @@ class Recommended extends Component {
                                 <div className="recommended__cats">
                                     <ul className="recommended__categoryList">
                                         <li className="recommended__categoryItem">
-                                            <a href="#" className="recommended__categoryItemLink">Хит продаж</a>
+                                            <a href="/" className="recommended__categoryItemLink">Хит продаж</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -106,7 +106,7 @@ const settings = {
 };
 
 function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
+    const { style, onClick } = props;
     return (
         <div type="button"
              data-role="none"
@@ -120,7 +120,7 @@ function SampleNextArrow(props) {
 }
 
 function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
+    const { style, onClick } = props;
     return (
         <div type="button"
              data-role="none"

@@ -26,9 +26,7 @@ class HeaderMiddlePoints extends Component {
                          className="headerMiddle__pointsMarker"/>
                 </div>
                 <div className="headerMiddle__pointsRight">
-                    <a href="#"
-                       className="headerMiddle__pointsLink"
-                       onClick={this.showModal}>1 Пункт<br/> выдачи</a>
+                    <span className="headerMiddle__pointsLink" onClick={this.showModal}>1 Пункт<br/> выдачи</span>
                 </div>
                 <ModalPoints showModal={this.state.showModal} onClose={this.showModal}/>
             </div>

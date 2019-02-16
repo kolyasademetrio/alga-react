@@ -16,7 +16,6 @@ import ShippingPage from './components/pages/ShippingPage';
 import TermsCooperationPage from './components/pages/TermsCooperationPage';
 
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import './App.css';
 
 class AppWithAnimation extends Component {
     render() {

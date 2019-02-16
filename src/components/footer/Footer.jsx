@@ -43,7 +43,7 @@ class Footer extends Component {
                                     <div className="footer__itemTitleLink copyright_hidden">&nbsp;</div>
                                     <div className="footer__copyright">
                                         <div>2018. ALGA PH. Разработка сайта</div>
-                                        <div><a href="http://www.seotm.ua/" target="_blank">SEOTM Digital Agency</a>.</div>
+                                        <div><a href="http://www.seotm.ua/" target="_blank" rel="noopener noreferrer">SEOTM Digital Agency</a>.</div>
                                     </div>
                                 </div>
                             </div>
